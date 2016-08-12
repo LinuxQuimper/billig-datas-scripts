@@ -1,0 +1,262 @@
+Lancement de la commande : 
+debmirror -a i386,amd64 --ignore-missing-release --no-source -s main,restricted,universe,multiverse,main/debian-installer,universe/debian-installer,multiverse/debian-installer,restricted/debian-installer -h archive.ubuntu.com -d jaunty,jaunty-updates,jaunty-security,karmic,karmic-updates,karmic-security,lucid,lucid-updates,lucid-security -r /ubuntu -v --progress -e http --postcleanup --ignore-release-gpg /mnt/datas/repositories/ubuntu/archive/
+Mirroring to /mnt/datas/repositories/ubuntu/archive/ from http://archive.ubuntu.com/ubuntu/
+Arches: i386,amd64
+Dists: jaunty,jaunty-updates,jaunty-security,karmic,karmic-updates,karmic-security,lucid,lucid-updates,lucid-security
+Sections: main,restricted,universe,multiverse,main/debian-installer,universe/debian-installer,multiverse/debian-installer,restricted/debian-installer
+Pdiff mode: use
+Will clean up AFTER mirroring.
+Attempting to get lock, this might take 2 minutes before it fails.
+Get Release files.
+[0%] Getting: dists/jaunty/Release... ok
+[0%] Getting: dists/jaunty/Release.gpg... ok
+gpgv: Signature faite le mer 22 avr 2009 23:35:26 CEST avec la clé DSA ID 437D05B5
+gpgv: Bonne signature de « Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com> »
+Ubuntu Release file: using Suite (jaunty).
+[0%] Getting: dists/jaunty-updates/Release... ok
+[0%] Getting: dists/jaunty-updates/Release.gpg... ok
+gpgv: Signature faite le ven 16 avr 2010 02:38:54 CEST avec la clé DSA ID 437D05B5
+gpgv: Bonne signature de « Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com> »
+Ubuntu Release file: using Suite (jaunty-updates).
+[0%] Getting: dists/jaunty-security/Release... ok
+[0%] Getting: dists/jaunty-security/Release.gpg... ok
+gpgv: Signature faite le ven 16 avr 2010 01:10:48 CEST avec la clé DSA ID 437D05B5
+gpgv: Bonne signature de « Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com> »
+Ubuntu Release file: using Suite (jaunty-security).
+[0%] Getting: dists/karmic/Release... ok
+[0%] Getting: dists/karmic/Release.gpg... ok
+gpgv: Signature faite le mer 28 oct 2009 15:23:20 CET avec la clé DSA ID 437D05B5
+gpgv: Bonne signature de « Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com> »
+Ubuntu Release file: using Suite (karmic).
+[0%] Getting: dists/karmic-updates/Release... ok
+[0%] Getting: dists/karmic-updates/Release.gpg... ok
+gpgv: Signature faite le ven 16 avr 2010 02:38:54 CEST avec la clé DSA ID 437D05B5
+gpgv: Bonne signature de « Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com> »
+Ubuntu Release file: using Suite (karmic-updates).
+[0%] Getting: dists/karmic-security/Release... ok
+[0%] Getting: dists/karmic-security/Release.gpg... ok
+gpgv: Signature faite le ven 16 avr 2010 01:10:48 CEST avec la clé DSA ID 437D05B5
+gpgv: Bonne signature de « Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com> »
+Ubuntu Release file: using Suite (karmic-security).
+[0%] Getting: dists/lucid/Release... ok
+[0%] Getting: dists/lucid/Release.gpg... ok
+gpgv: Signature faite le sam 17 avr 2010 11:27:59 CEST avec la clé DSA ID 437D05B5
+gpgv: Bonne signature de « Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com> »
+Ubuntu Release file: using Suite (lucid).
+[0%] Getting: dists/lucid-updates/Release... ok
+[0%] Getting: dists/lucid-updates/Release.gpg... ok
+gpgv: Signature faite le jeu 29 oct 2009 18:46:41 CET avec la clé DSA ID 437D05B5
+gpgv: Bonne signature de « Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com> »
+Ubuntu Release file: using Suite (lucid-updates).
+[0%] Getting: dists/lucid-security/Release... ok
+[0%] Getting: dists/lucid-security/Release.gpg... ok
+gpgv: Signature faite le jeu 29 oct 2009 18:46:41 CET avec la clé DSA ID 437D05B5
+gpgv: Bonne signature de « Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com> »
+Ubuntu Release file: using Suite (lucid-security).
+Get Packages and Sources files and other miscellany.
+dists/jaunty-security/main/binary-i386/Packages.gz needs fetch
+[ 32%] Getting: dists/jaunty-security/main/binary-i386/Packages.gz... ok
+dists/jaunty-security/main/binary-amd64/Packages.gz needs fetch
+[ 32%] Getting: dists/jaunty-security/main/binary-amd64/Packages.gz... ok
+dists/jaunty-security/universe/binary-i386/Packages.gz needs fetch
+[ 32%] Getting: dists/jaunty-security/universe/binary-i386/Packages.gz... ok
+dists/jaunty-security/universe/binary-amd64/Packages.gz needs fetch
+[ 33%] Getting: dists/jaunty-security/universe/binary-amd64/Packages.gz... ok
+dists/karmic-security/main/binary-i386/Packages.gz needs fetch
+[ 33%] Getting: dists/karmic-security/main/binary-i386/Packages.gz... ok
+dists/karmic-security/main/binary-amd64/Packages.gz needs fetch
+[ 33%] Getting: dists/karmic-security/main/binary-amd64/Packages.gz... ok
+dists/karmic-security/universe/binary-i386/Packages.gz needs fetch
+[ 33%] Getting: dists/karmic-security/universe/binary-i386/Packages.gz... ok
+dists/karmic-security/universe/binary-amd64/Packages.gz needs fetch
+[ 33%] Getting: dists/karmic-security/universe/binary-amd64/Packages.gz... ok
+dists/lucid/main/binary-i386/Packages.gz needs fetch
+[ 34%] Getting: dists/lucid/main/binary-i386/Packages.gz... ok
+dists/lucid/main/binary-amd64/Packages.gz needs fetch
+[ 37%] Getting: dists/lucid/main/binary-amd64/Packages.gz... ok
+dists/lucid/restricted/binary-i386/Packages.gz needs fetch
+[ 41%] Getting: dists/lucid/restricted/binary-i386/Packages.gz... ok
+dists/lucid/restricted/binary-amd64/Packages.gz needs fetch
+[ 41%] Getting: dists/lucid/restricted/binary-amd64/Packages.gz... ok
+dists/lucid/universe/binary-i386/Packages.gz needs fetch
+[ 41%] Getting: dists/lucid/universe/binary-i386/Packages.gz... ok
+dists/lucid/universe/binary-amd64/Packages.gz needs fetch
+[ 53%] Getting: dists/lucid/universe/binary-amd64/Packages.gz... ok
+dists/lucid/main/debian-installer/binary-i386/Packages.gz needs fetch
+[ 66%] Getting: dists/lucid/main/debian-installer/binary-i386/Packages.gz... ok
+dists/lucid/main/debian-installer/binary-amd64/Packages.gz needs fetch
+[ 66%] Getting: dists/lucid/main/debian-installer/binary-amd64/Packages.gz... ok
+dists/lucid/universe/debian-installer/binary-i386/Packages.gz needs fetch
+[ 66%] Getting: dists/lucid/universe/debian-installer/binary-i386/Packages.gz... ok
+dists/lucid/universe/debian-installer/binary-amd64/Packages.gz needs fetch
+[ 66%] Getting: dists/lucid/universe/debian-installer/binary-amd64/Packages.gz... ok
+dists/karmic-updates/main/binary-i386/Packages.gz needs fetch
+[ 66%] Getting: dists/karmic-updates/main/binary-i386/Packages.gz... ok
+dists/karmic-updates/main/binary-amd64/Packages.gz needs fetch
+[ 67%] Getting: dists/karmic-updates/main/binary-amd64/Packages.gz... ok
+dists/karmic-updates/universe/binary-i386/Packages.gz needs fetch
+[ 67%] Getting: dists/karmic-updates/universe/binary-i386/Packages.gz... ok
+dists/karmic-updates/universe/binary-amd64/Packages.gz needs fetch
+[ 67%] Getting: dists/karmic-updates/universe/binary-amd64/Packages.gz... ok
+dists/jaunty-updates/main/binary-i386/Packages.gz needs fetch
+[ 68%] Getting: dists/jaunty-updates/main/binary-i386/Packages.gz... ok
+dists/jaunty-updates/main/binary-amd64/Packages.gz needs fetch
+[ 68%] Getting: dists/jaunty-updates/main/binary-amd64/Packages.gz... ok
+dists/jaunty-updates/universe/binary-i386/Packages.gz needs fetch
+[ 69%] Getting: dists/jaunty-updates/universe/binary-i386/Packages.gz... ok
+dists/jaunty-updates/universe/binary-amd64/Packages.gz needs fetch
+[ 69%] Getting: dists/jaunty-updates/universe/binary-amd64/Packages.gz... ok
+Parse Packages and Sources files and add to the file list everything therein.
+Download all files that we need to get (6612 MiB).
+Get package files.
+[  0%] Getting: pool/main/a/acpi-support/acpi-support_0.134_amd64.deb... ok
+[  0%] Getting: pool/main/a/acpi-support/acpi-support_0.134_i386.deb... ok
+[  0%] Getting: pool/main/a/akonadi/akonadi-dbg_1.3.1-0ubuntu3_amd64.deb... ok
+[  0%] Getting: pool/main/a/akonadi/akonadi-dbg_1.3.1-0ubuntu3_i386.deb... ok
+[  0%] Getting: pool/main/a/akonadi/akonadi-server_1.3.1-0ubuntu3_amd64.deb... ok
+[  0%] Getting: pool/main/a/akonadi/akonadi-server_1.3.1-0ubuntu3_i386.deb... ok
+[  0%] Getting: pool/main/a/akonadi/libakonadi-dev_1.3.1-0ubuntu3_amd64.deb... ok
+[  0%] Getting: pool/main/a/akonadi/libakonadi-dev_1.3.1-0ubuntu3_i386.deb... ok
+[  0%] Getting: pool/main/a/akonadi/libakonadiprivate1_1.3.1-0ubuntu3_amd64.deb... ok
+[  0%] Getting: pool/main/a/akonadi/libakonadiprivate1_1.3.1-0ubuntu3_i386.deb... ok
+[  0%] Getting: pool/main/a/apache2/apache2-doc_2.2.14-5ubuntu8_all.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-mpm-event_2.2.14-5ubuntu8_amd64.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-mpm-event_2.2.14-5ubuntu8_i386.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-mpm-prefork_2.2.14-5ubuntu8_amd64.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-mpm-prefork_2.2.14-5ubuntu8_i386.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-mpm-worker_2.2.14-5ubuntu8_amd64.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-mpm-worker_2.2.14-5ubuntu8_i386.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-prefork-dev_2.2.14-5ubuntu8_amd64.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-prefork-dev_2.2.14-5ubuntu8_i386.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-threaded-dev_2.2.14-5ubuntu8_amd64.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-threaded-dev_2.2.14-5ubuntu8_i386.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-utils_2.2.14-5ubuntu8_amd64.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2-utils_2.2.14-5ubuntu8_i386.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2.2-bin_2.2.14-5ubuntu8_amd64.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2.2-bin_2.2.14-5ubuntu8_i386.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2.2-common_2.2.14-5ubuntu8_amd64.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2.2-common_2.2.14-5ubuntu8_i386.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2_2.2.14-5ubuntu8_amd64.deb... ok
+[  1%] Getting: pool/main/a/apache2/apache2_2.2.14-5ubuntu8_i386.deb... ok
+[  1%] Getting: pool/main/a/app-install-data-ubuntu/app-install-data_0.10.04.7_all.deb... ok
+[  1%] Getting: pool/main/a/apport/apport-gtk_1.13.3-0ubuntu1_all.deb... ok
+[  1%] Getting: pool/main/a/apport/apport-kde_1.13.3-0ubuntu1_all.deb... ok
+[  1%] Getting: pool/main/a/apport/apport-retrace_1.13.3-0ubuntu1_all.deb... ok
+[  1%] Getting: pool/main/a/apport/apport_1.13.3-0ubuntu1_all.deb... ok
+[  1%] Getting: pool/main/a/apport/dh-apport_1.13.3-0ubuntu1_all.deb... ok
+[  1%] Getting: pool/main/a/apport/python-apport_1.13.3-0ubuntu1_all.deb... ok
+[  1%] Getting: pool/main/a/apport/python-problem-report_1.13.3-0ubuntu1_all.deb... ok
+[  1%] Getting: pool/main/a/apt/apt-doc_0.7.25.3ubuntu7_all.deb... ok
+[  1%] Getting: pool/main/a/apt/apt-transport-https_0.7.25.3ubuntu7_amd64.deb... ok
+[  1%] Getting: pool/main/a/apt/apt-transport-https_0.7.25.3ubuntu7_i386.deb... ok
+[  1%] Getting: pool/main/a/apt/apt-utils_0.7.25.3ubuntu7_amd64.deb... ok
+[  1%] Getting: pool/main/a/apt/apt-utils_0.7.25.3ubuntu7_i386.deb... ok
+[  1%] Getting: pool/main/a/apt/apt_0.7.25.3ubuntu7_amd64.deb... ok
+[  1%] Getting: pool/main/a/apt/apt_0.7.25.3ubuntu7_i386.deb... ok
+[  1%] Getting: pool/main/a/apt/libapt-pkg-dev_0.7.25.3ubuntu7_amd64.deb... ok
+[  1%] Getting: pool/main/a/apt/libapt-pkg-dev_0.7.25.3ubuntu7_i386.deb... ok
+[  1%] Getting: pool/main/a/apt/libapt-pkg-doc_0.7.25.3ubuntu7_all.deb... ok
+[  1%] Getting: pool/main/a/aptdaemon/aptdaemon_0.11+bzr345-0ubuntu4_all.deb... ok
+[  1%] Getting: pool/main/a/aptdaemon/python-aptdaemon-gtk_0.11+bzr345-0ubuntu4_all.deb... ok
+[  1%] Getting: pool/main/a/aptdaemon/python-aptdaemon_0.11+bzr345-0ubuntu4_all.deb... ok
+[  1%] Getting: pool/main/a/at-spi/at-spi-doc_1.30.0-0ubuntu2_all.deb... ok
+[  1%] Getting: pool/main/a/at-spi/at-spi_1.30.0-0ubuntu2_amd64.deb... ok
+[  1%] Getting: pool/main/a/at-spi/at-spi_1.30.0-0ubuntu2_i386.deb... ok
+[  1%] Getting: pool/main/a/at-spi/libatspi-dbg_1.30.0-0ubuntu2_amd64.deb... ok
+[  1%] Getting: pool/main/a/at-spi/libatspi-dbg_1.30.0-0ubuntu2_i386.deb... ok
+[  1%] Getting: pool/main/a/at-spi/libatspi-dev_1.30.0-0ubuntu2_amd64.deb... ok
+[  1%] Getting: pool/main/a/at-spi/libatspi-dev_1.30.0-0ubuntu2_i386.deb... ok
+[  1%] Getting: pool/main/a/at-spi/libatspi1.0-0_1.30.0-0ubuntu2_amd64.deb... ok
+[  1%] Getting: pool/main/a/at-spi/libatspi1.0-0_1.30.0-0ubuntu2_i386.deb... ok
+[  1%] Getting: pool/main/a/at-spi/python-pyatspi_1.30.0-0ubuntu2_all.deb... ok
+[  1%] Getting: pool/main/b/base-files/base-files_5.0.0ubuntu18_amd64.deb... ok
+[  1%] Getting: pool/main/b/base-files/base-files_5.0.0ubuntu18_i386.deb... ok
+[  1%] Getting: pool/main/b/base-files/lsb-release-udeb_5.0.0ubuntu18_all.udeb... ok
+[  1%] Getting: pool/main/b/bash-completion/bash-completion_1.1-3ubuntu2_all.deb... ok
+[  1%] Getting: pool/main/b/bogofilter/bogofilter-bdb_1.2.1-0ubuntu1_amd64.deb... ok
+[  1%] Getting: pool/main/b/bogofilter/bogofilter-bdb_1.2.1-0ubuntu1_i386.deb... ok
+[  1%] Getting: pool/main/b/bogofilter/bogofilter-common_1.2.1-0ubuntu1_all.deb... ok
+[  1%] Getting: pool/main/b/bogofilter/bogofilter_1.2.1-0ubuntu1_amd64.deb... ok
+[  1%] Getting: pool/main/b/bogofilter/bogofilter_1.2.1-0ubuntu1_i386.deb... ok
+[  1%] Getting: pool/main/b/byobu/byobu_2.68-0ubuntu1_all.deb... ok
+[  1%] Getting: pool/main/c/casper/casper_1.235_amd64.deb... ok
+[  1%] Getting: pool/main/c/casper/casper_1.235_i386.deb... ok
+[  1%] Getting: pool/main/c/casper/ubiquity-casper_1.235_all.deb... ok
+[  1%] Getting: pool/main/c/cdrom-detect/cdrom-detect_1.32ubuntu3_all.udeb... ok
+[  1%] Getting: pool/main/c/cheese/cheese-common_2.30.0-0ubuntu2_all.deb... ok
+[  1%] Getting: pool/main/c/cheese/cheese_2.30.0-0ubuntu2_amd64.deb... ok
+[  1%] Getting: pool/main/c/cheese/cheese_2.30.0-0ubuntu2_i386.deb... ok
+[  1%] Getting: pool/main/c/cheese/libcheese-gtk-dev_2.30.0-0ubuntu2_amd64.deb... ok
+[  1%] Getting: pool/main/c/cheese/libcheese-gtk-dev_2.30.0-0ubuntu2_i386.deb... ok
+[  1%] Getting: pool/main/c/cheese/libcheese-gtk18_2.30.0-0ubuntu2_amd64.deb... ok
+[  1%] Getting: pool/main/c/cheese/libcheese-gtk18_2.30.0-0ubuntu2_i386.deb... ok
+[  1%] Getting: pool/main/c/clamav/clamav-base_0.96+dfsg-1ubuntu2_all.deb... ok
+[  1%] Getting: pool/main/c/clamav/clamav-daemon_0.96+dfsg-1ubuntu2_amd64.deb... ok
+[  1%] Getting: pool/main/c/clamav/clamav-daemon_0.96+dfsg-1ubuntu2_i386.deb... ok
+[  1%] Getting: pool/main/c/clamav/clamav-dbg_0.96+dfsg-1ubuntu2_amd64.deb... ok
+[  1%] Getting: pool/main/c/clamav/clamav-dbg_0.96+dfsg-1ubuntu2_i386.deb... ok
+[  2%] Getting: pool/main/c/clamav/clamav-docs_0.96+dfsg-1ubuntu2_all.deb... ok
+[  2%] Getting: pool/main/c/clamav/clamav-freshclam_0.96+dfsg-1ubuntu2_amd64.deb... ok
+[  2%] Getting: pool/main/c/clamav/clamav-freshclam_0.96+dfsg-1ubuntu2_i386.deb... ok
+[  2%] Getting: pool/main/c/clamav/clamav_0.96+dfsg-1ubuntu2_amd64.deb... ok
+[  2%] Getting: pool/main/c/clamav/clamav_0.96+dfsg-1ubuntu2_i386.deb... ok
+[  2%] Getting: pool/main/c/clamav/libclamav-dev_0.96+dfsg-1ubuntu2_amd64.deb... ok
+[  2%] Getting: pool/main/c/clamav/libclamav-dev_0.96+dfsg-1ubuntu2_i386.deb... ok
+[  2%] Getting: pool/main/c/clamav/libclamav6_0.96+dfsg-1ubuntu2_amd64.deb... ok
+[  2%] Getting: pool/main/c/clamav/libclamav6_0.96+dfsg-1ubuntu2_i386.deb... ok
+[  2%] Getting: pool/main/c/cmake/cmake_2.6.2-1ubuntu1.1_amd64.deb... ok
+[  2%] Getting: pool/main/c/cmake/cmake_2.6.2-1ubuntu1.1_i386.deb... ok
+[  2%] Getting: pool/main/c/command-not-found/command-not-found-data_0.2.40ubuntu5_amd64.deb... ok
+[  2%] Getting: pool/main/c/command-not-found/command-not-found-data_0.2.40ubuntu5_i386.deb... ok
+[  2%] Getting: pool/main/c/command-not-found/command-not-found_0.2.40ubuntu5_all.deb... ok
+[  2%] Getting: pool/main/c/console-setup/bdf2psf_1.34ubuntu14_all.deb... ok
+[  2%] Getting: pool/main/c/console-setup/console-setup-fonts-udeb_1.34ubuntu14_all.udeb... ok
+[  2%] Getting: pool/main/c/console-setup/console-setup-pc-ekmap_1.34ubuntu14_all.udeb... ok
+[  2%] Getting: pool/main/c/console-setup/console-setup-sun4-ekmap_1.34ubuntu14_all.udeb... ok
+[  2%] Getting: pool/main/c/console-setup/console-setup-sun5-ekmap_1.34ubuntu14_all.udeb... ok
+[  2%] Getting: pool/main/c/console-setup/console-setup-udeb_1.34ubuntu14_all.udeb... ok
+[  2%] Getting: pool/main/c/console-setup/console-setup_1.34ubuntu14_all.deb... ok
+[  2%] Getting: pool/main/c/cron/cron_3.0pl1-106ubuntu5_amd64.deb... ok
+[  2%] Getting: pool/main/c/cron/cron_3.0pl1-106ubuntu5_i386.deb... ok
+[  2%] Getting: pool/main/d/debian-installer/debian-installer_20081029ubuntu100_amd64.deb... ok
+[  2%] Getting: pool/main/d/debian-installer/debian-installer_20081029ubuntu100_i386.deb... ok
+[  2%] Getting: pool/main/d/debootstrap/debootstrap-udeb_1.0.20ubuntu1_all.udeb... ok
+[  2%] Getting: pool/main/d/debootstrap/debootstrap_1.0.20ubuntu1_all.deb... ok
+[  2%] Getting: pool/main/d/desktop-webmail/desktop-webmail_002-0ubuntu1_amd64.deb... ok
+[  2%] Getting: pool/main/d/desktop-webmail/desktop-webmail_002-0ubuntu1_i386.deb... ok
+[  2%] Getting: pool/main/d/desktopcouch/desktopcouch_0.6.4-0ubuntu2_all.deb... ok
+[  2%] Getting: pool/main/d/desktopcouch/python-desktopcouch-records_0.6.4-0ubuntu2_all.deb... ok
+[  2%] Getting: pool/main/d/desktopcouch/python-desktopcouch_0.6.4-0ubuntu2_all.deb... ok
+[  2%] Getting: pool/main/d/devscripts/devscripts_2.10.61ubuntu5_amd64.deb... ok
+[  2%] Getting: pool/main/d/devscripts/devscripts_2.10.61ubuntu5_i386.deb... ok
+[  2%] Getting: pool/main/d/digikam/digikam-dbg_1.2.0-0ubuntu1_amd64.deb... ok
+[  2%] Getting: pool/main/d/digikam/digikam-dbg_1.2.0-0ubuntu1_i386.deb... ok
+[  3%] Getting: pool/main/d/digikam/digikam_1.2.0-0ubuntu1_amd64.deb... ok
+[  3%] Getting: pool/main/d/digikam/digikam_1.2.0-0ubuntu1_i386.deb... ok
+[  3%] Getting: pool/main/d/digikam/showfoto_1.2.0-0ubuntu1_amd64.deb... ok
+[  3%] Getting: pool/main/d/digikam/showfoto_1.2.0-0ubuntu1_i386.deb... ok
+[  3%] Getting: pool/main/d/dmraid/dmraid-udeb_1.0.0.rc16-3ubuntu2_amd64.udeb... ok
+[  3%] Getting: pool/main/d/dmraid/dmraid-udeb_1.0.0.rc16-3ubuntu2_i386.udeb... ok
+[  3%] Getting: pool/main/d/dmraid/dmraid_1.0.0.rc16-3ubuntu2_amd64.deb... ok
+[  3%] Getting: pool/main/d/dmraid/dmraid_1.0.0.rc16-3ubuntu2_i386.deb... ok
+[  3%] Getting: pool/main/d/dmraid/libdmraid-dev_1.0.0.rc16-3ubuntu2_amd64.deb... ok
+[  3%] Getting: pool/main/d/dmraid/libdmraid-dev_1.0.0.rc16-3ubuntu2_i386.deb... ok
+[  3%] Getting: pool/main/d/dmraid/libdmraid1.0.0.rc16-udeb_1.0.0.rc16-3ubuntu2_amd64.udeb... ok
+[  3%] Getting: pool/main/d/dmraid/libdmraid1.0.0.rc16-udeb_1.0.0.rc16-3ubuntu2_i386.udeb... ok
+[  3%] Getting: pool/main/d/dmraid/libdmraid1.0.0.rc16_1.0.0.rc16-3ubuntu2_amd64.deb... ok
+[  3%] Getting: pool/main/d/dmraid/libdmraid1.0.0.rc16_1.0.0.rc16-3ubuntu2_i386.deb... ok
+[  3%] Getting: pool/main/d/dpkg/dpkg-dev_1.15.5.6ubuntu4_all.deb... ok
+[  3%] Getting: pool/main/d/dpkg/dpkg_1.15.5.6ubuntu4_amd64.deb... ok
+[  3%] Getting: pool/main/d/dpkg/dpkg_1.15.5.6ubuntu4_i386.deb... ok
+[  3%] Getting: pool/main/d/dpkg/dselect_1.15.5.6ubuntu4_amd64.deb... ok
+[  3%] Getting: pool/main/d/dpkg/dselect_1.15.5.6ubuntu4_i386.deb... ok
+[  3%] Getting: pool/main/d/drbd8/drbd8-source_8.3.7-1ubuntu2_all.deb... ok
+[  3%] Getting: pool/main/d/drbd8/drbd8-utils_8.3.7-1ubuntu2_amd64.deb... ok
+[  3%] Getting: pool/main/d/drbd8/drbd8-utils_8.3.7-1ubuntu2_i386.deb... ok
+[  3%] Getting: pool/main/e/empathy/empathy-common_2.30.0.1-0ubuntu3_all.deb... ok
+[  3%] Getting: pool/main/e/empathy/empathy-dbg_2.30.0.1-0ubuntu3_amd64.deb... ok
+[  3%] Getting: pool/main/e/empathy/empathy-dbg_2.30.0.1-0ubuntu3_i386.deb... ok
+[  3%] Getting: pool/main/e/empathy/empathy_2.30.0.1-0ubuntu3_amd64.deb... ok
+[  3%] Getting: pool/main/e/empathy/empathy_2.30.0.1-0ubuntu3_i386.deb... ok
+[  3%] Getting: pool/main/e/empathy/nautilus-sendto-empathy_2.30.0.1-0ubuntu3_amd64.deb... ok
+[  3%] Getting: pool/main/e/empathy/nautilus-sendto-empathy_2.30.0.1-0ubuntu3_i386.deb... 
